@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About</title>
+    <style>
+        body {
+            background-color: #09001d;
+            font-family: 'Arial', 'Helvetica', sans-serif; 
+            margin: 0;
+            padding: 0;
+        }
+
+        header {
+            width: 100%;
+            padding: 10px;
+            background: seagreen;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        .logo {
+            font-size: 32px;
+            color: #fff;
+            text-decoration: none;
+            font-weight: 700;
+            filter: drop-shadow(0 0 5px #09001d);
+        }
+
+        .navbar {
+            display: flex;
+        }
+
+        .navbar a {
+            text-decoration: none;
+            font-size: 18px;
+            color: #fff;
+            font-weight: 500;
+            margin: 0 20px;
+        }
+
+        .head {
+            text-align: center;
+            color: white;
+            margin-top: 20px;
+        }
+
+        .all {
+            display: flex;
+            justify-content: space-around;
+            margin-top: 50px;
+        }
+
+        .about-section {
+            height: 400px;
+            background-color: whitesmoke;
+            border: none;
+            padding: 20px;
+            box-sizing: border-box;
+            transition: background 0.3s, color 0.3s;
+        }
+
+        .about-section:hover {
+            background: transparent;
+            color: white;
+        }
+
+        h1 {
+            text-align: center;
+        }
+
+        p {
+            margin: 10px 5px;
+            letter-spacing: 1px;
+        }
+    </style>
+</head>
+<body>
+    <header class="header">
+        <a href="#" class="logo">Quiz</a>
+        <nav class="navbar">
+            <a href="/login.html">Home</a>
+            <a href="/about.html">About</a>
+            <a href="/services.html">Services</a>
+            <a href="/contacts.html">Contact</a>
+        </nav>
+    </header>
+    <h1 class="head">ABOUT</h1>
+    <div class="all">
+        <div class="about-section">
+            <h1>About Quiz</h1>
+            <p>Hello there! This quiz is a basic quiz application that allows users to login, attempt the quiz with 5 questions, and view their score at the end. Users can also attempt the quiz again.</p>
+        </div>
+        <div class="about-section">
+            <h1>About Us</h1>
+            <p>Hello there! We are a team of 5 students who developed this basic quiz as a project for the last semester. While it's a simple quiz with only 5 questions, it serves as a beginner project for us. We have more advanced work in the pipeline.</p>
+        </div>
+    </div>
+</body>
+</html>
